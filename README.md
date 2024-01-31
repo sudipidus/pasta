@@ -27,3 +27,9 @@ go build -o pasta
 ```
 sh sender.sh
 ```
+
+
+### What did I learn?
+1. SIGUSR1, SIGUSR2: These two syscalls are reserved for users/applications in UNIX. You can write a program which listens to these and does certain tasks. (akin to SIGINT, SIGKILL but it won't actually kill the program)
+
+2. You can convert simple scripts into mac Applications by adding them as script and saving them as application
